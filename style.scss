@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+@import "node_modules/bootstrap/scss/bootstrap";
+
+body {
+  font-family: "Outfit", sans-serif;
+  background: hsl(212, 45%, 89%);
+}
+
+.card {
+  border-radius: 1rem;
+  border: none;
+}
+
+.qr-img {
+  border-radius: 0.5rem;
+}
+
+.title {
+  color: hsl(218, 44%, 22%);
+}
+.desc {
+  color: hsl(220, 15%, 55%);
+  font-size: 0.9rem;
+  max-width: 250px;
+}
